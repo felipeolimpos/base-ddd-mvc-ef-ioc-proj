@@ -42,9 +42,9 @@ To set up this project you will need to:
 
 Felipe Oliveira Campos
 
-Email : felipeolimpos@gmail.com
-LinkedIn : br.linkedin.com/in/felipeoliveiracampos
-GitHub : github.com/felipeolimpos
+- Email : felipeolimpos@gmail.com
+- LinkedIn : br.linkedin.com/in/felipeoliveiracampos
+- GitHub : github.com/felipeolimpos
 
 ## License
 
