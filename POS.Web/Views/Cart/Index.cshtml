@@ -1,0 +1,63 @@
+﻿@using POS.Web.ViewModels
+@model CartViewModel
+@{
+    ViewBag.Title = "Cart";
+}
+
+<h2>Cart</h2>
+<hr />
+<br />
+<div id="cart-wrapper">
+    @Html.Partial("Cart", Model)
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        function removeItem(id, quantity) {
+            let confirmed = window.confirm("Are you sure you want to Remove this item from your Cart?");
+            if (!confirmed) {
+                return false;
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "/Cart/Remove/" + id,
+                success: function (response) {
+                    $("#cart-wrapper").html(response);
+                    updateCartQuantity(quantity);
+                }
+            });
+        }
+
+        function clearCart() {
+            let confirmed = window.confirm("Are you sure you want to Clear your Cart?");
+            if (!confirmed) {
+                return false;
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "/Cart/Clear",
+                success: function (response) {
+                    $("#cart-wrapper").html(response);
+                    updateCartQuantity(-1);
+                }
+            });
+        }
+
+        function updateCartQuantity(itemsToRemove)
+        {
+            let cartQuantity = $("#cart-quantity");
+
+            if (itemsToRemove === -1) {
+                cartQuantity.html(0);
+            }
+            else
+            {
+                let oldQuantity = parseInt(cartQuantity.html());
+                let newQuantity = oldQuantity - itemsToRemove;
+                cartQuantity.html(newQuantity);
+            }
+        }
+    </script>
+}

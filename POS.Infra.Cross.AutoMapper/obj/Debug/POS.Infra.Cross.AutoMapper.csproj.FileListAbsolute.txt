@@ -1,0 +1,16 @@
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Infra.Cross.AutoMapper.dll
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Infra.Cross.AutoMapper.pdb
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\AutoMapper.dll
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Domain.dll
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Infra.Cross.DTO.dll
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Infra.Data.dll
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\EntityFramework.dll
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Domain.pdb
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Infra.Cross.DTO.pdb
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Infra.Data.pdb
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\POS.Infra.Data.dll.config
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\AutoMapper.xml
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\bin\Debug\EntityFramework.xml
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\obj\Debug\POS.Infra.Cross.AutoMapper.csprojResolveAssemblyReference.cache
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\obj\Debug\POS.Infra.Cross.AutoMapper.dll
+C:\Projetos\POS\POS.Infra.Cross.AutoMapper\obj\Debug\POS.Infra.Cross.AutoMapper.pdb
