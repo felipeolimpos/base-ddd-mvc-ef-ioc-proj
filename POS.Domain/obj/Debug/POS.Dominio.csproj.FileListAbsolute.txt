@@ -1,0 +1,5 @@
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\bin\Debug\POS.Dominio.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\bin\Debug\POS.Dominio.pdb
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\obj\Debug\POS.Dominio.csprojResolveAssemblyReference.cache
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\obj\Debug\POS.Dominio.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\obj\Debug\POS.Dominio.pdb

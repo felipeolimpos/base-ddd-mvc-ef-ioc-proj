@@ -1,0 +1,30 @@
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\POS.Infra.Data.dll.config
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\POS.Infra.Data.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\POS.Infra.Data.pdb
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\EntityFramework.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\POS.Dominio.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\POS.Dominio.pdb
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\EntityFramework.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.csprojResolveAssemblyReference.cache
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.pdb
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\POS.Infra.Data.dll.config
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\POS.Infra.Data.dll
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\POS.Infra.Data.pdb
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\POS.Domain.dll
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\POS.Infra.Cross.DTO.dll
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\POS.Domain.pdb
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\POS.Infra.Cross.DTO.pdb
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Projetos\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.Migrations.InitialMigration.resources
+C:\Projetos\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.csproj.GenerateResource.Cache
+C:\Projetos\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.dll
+C:\Projetos\POS\POS.Infra.Data\obj\Debug\POS.Infra.Data.pdb
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\AutoMapper.dll
+C:\Projetos\POS\POS.Infra.Data\bin\Debug\AutoMapper.xml

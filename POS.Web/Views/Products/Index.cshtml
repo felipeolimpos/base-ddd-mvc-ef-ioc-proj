@@ -1,0 +1,39 @@
+﻿@model POS.Web.ViewModels.ProductViewModel
+@{
+    ViewBag.Title = string.Format("{0} - {1}", "Product", Model.Name);
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center">@Html.DisplayFor(model => model.Name)</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3>
+                @Html.DisplayFor(model => model.Description)
+            </h3>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="lead">
+                    @Html.DisplayFor(model => model.Price)
+                </p>
+            </div>
+            <div class="col-md-4">
+                @using (Html.BeginForm("Add", "Cart", FormMethod.Post, new { @id = "add-form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(model => model.ID, new { name = "id" })
+                    <input id="quantity" name="quantity" type="number" min="1" max="1000" value="1" />
+                    <button class="btn btn-default btn-primary" type="submit">Add to Cart</button>
+                }
+            </div>
+        </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

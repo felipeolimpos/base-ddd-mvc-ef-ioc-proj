@@ -1,0 +1,5 @@
+C:\Projetos\POS\POS.Infra.Cross.DTO\bin\Debug\POS.Infra.Cross.DTO.dll
+C:\Projetos\POS\POS.Infra.Cross.DTO\bin\Debug\POS.Infra.Cross.DTO.pdb
+C:\Projetos\POS\POS.Infra.Cross.DTO\obj\Debug\POS.Infra.Cross.DTO.csprojResolveAssemblyReference.cache
+C:\Projetos\POS\POS.Infra.Cross.DTO\obj\Debug\POS.Infra.Cross.DTO.dll
+C:\Projetos\POS\POS.Infra.Cross.DTO\obj\Debug\POS.Infra.Cross.DTO.pdb

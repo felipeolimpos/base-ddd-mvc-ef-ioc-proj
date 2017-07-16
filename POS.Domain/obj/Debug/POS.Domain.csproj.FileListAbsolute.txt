@@ -1,0 +1,16 @@
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\bin\Debug\POS.Dominio.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\bin\Debug\POS.Dominio.pdb
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\obj\Debug\POS.Dominio.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Dominio\obj\Debug\POS.Dominio.pdb
+D:\POS\POS.Dominio\bin\Debug\POS.Dominio.dll
+D:\POS\POS.Dominio\bin\Debug\POS.Dominio.pdb
+D:\POS\POS.Dominio\obj\Debug\POS.Domain.csprojResolveAssemblyReference.cache
+D:\POS\POS.Dominio\obj\Debug\POS.Dominio.dll
+D:\POS\POS.Dominio\obj\Debug\POS.Dominio.pdb
+C:\Projetos\POS\POS.Domain\bin\Debug\POS.Domain.dll
+C:\Projetos\POS\POS.Domain\bin\Debug\POS.Domain.pdb
+C:\Projetos\POS\POS.Domain\obj\Debug\POS.Domain.csprojResolveAssemblyReference.cache
+C:\Projetos\POS\POS.Domain\obj\Debug\POS.Domain.dll
+C:\Projetos\POS\POS.Domain\obj\Debug\POS.Domain.pdb
+C:\Projetos\POS\POS.Domain\bin\Debug\POS.Infra.Cross.DTO.dll
+C:\Projetos\POS\POS.Domain\bin\Debug\POS.Infra.Cross.DTO.pdb

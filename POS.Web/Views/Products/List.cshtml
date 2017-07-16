@@ -1,0 +1,74 @@
+﻿@model IEnumerable<POS.Web.ViewModels.ProductViewModel>
+@{
+    ViewBag.Title = "Produtcs";
+}
+
+<h2>Manage Products</h2>
+
+@if (Model.Any())
+{
+    <table class="table table-striped table-hover table-responsive">
+
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreatedAt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Active)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink(item.Name, "Details", new { id = item.ID })
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Active)
+                    </td>
+                    <td>
+                        <a href="/Products/Edit/@item.ID"><span class="glyphicon glyphicon-pencil"></span></a>
+                        |
+                        <a href="/Products/Delete/@item.ID"><span class="glyphicon glyphicon-trash"></span></a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+    <hr />
+}
+
+<p>
+    @Html.ActionLink("New Product", "Create")
+</p>

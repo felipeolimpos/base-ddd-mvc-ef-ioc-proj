@@ -1,0 +1,113 @@
+﻿@using POS.Web.ViewModels
+@model CheckoutViewModel
+@{
+    ViewBag.Title = "Checkout";
+    var isAbleToSubmit = Model.Cart != null && Model.Cart.Items != null && Model.Cart.Items.Any()
+                        && Model.PaymentMethods != null && Model.PaymentMethods.Any();
+}
+
+<h2>Cart Checkout</h2>
+<br />
+<hr />
+<h4 class="text-center">Summary</h4>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped table-hover table-responsive">
+                <thead>
+                    <tr>
+                        <th>
+                            Item
+                        </th>
+                        <th>
+                            Quantity
+                        </th>
+                        <th>
+                            Total
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Cart.Items)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Product.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantity)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Total)
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <span class="lead">Total Purchase @Html.DisplayFor(model => model.Cart.Total)</span>
+        </div>
+    </div>
+</div>
+<hr />
+@using (Html.BeginForm("Submitted", "Cart"))
+{
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.BillingInfo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.BillingInfo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.BillingInfo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ShippingInfo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.ShippingInfo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ShippingInfo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PaymentMethodId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @foreach (var item in Model.PaymentMethods)
+                {
+                    <div>
+                        @Html.RadioButtonFor(model => model.PaymentMethodId, item.ID, new { id = item.ID })
+                        <label for="@item.ID">@item.Name</label>
+                    </div>
+                }
+                @Html.ValidationMessageFor(model => model.PaymentMethodId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @if (isAbleToSubmit)
+        {
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input onclick="confirmSubmit();" type="submit" value="Submit" class="btn btn-default btn-primary" />
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<script type="text/javascript">
+    function confirmSubmit() {
+        let confirmed = window.confirm("Are you sure you want to Submit your Cart?");
+        return confirmed;
+    }
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

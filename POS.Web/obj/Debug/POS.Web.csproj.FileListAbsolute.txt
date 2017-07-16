@@ -1,0 +1,102 @@
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\csc.exe
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\System.Collections.Immutable.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\vbc.exe
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\VBCSCompiler.exe
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\roslyn\VBCSCompiler.exe.config
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\POS.Web.dll.config
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\POS.Web.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\POS.Web.pdb
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\Antlr3.Runtime.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\Newtonsoft.Json.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Helpers.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Mvc.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Optimization.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Razor.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.WebPages.Deployment.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.WebPages.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.WebPages.Razor.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\WebGrease.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Helpers.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Mvc.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Optimization.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.Razor.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.WebPages.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.WebPages.Deployment.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\System.Web.WebPages.Razor.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\Antlr3.Runtime.pdb
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\bin\Newtonsoft.Json.xml
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\obj\Debug\POS.Web.dll
+c:\users\felipeoc\documents\visual studio 2015\Projects\POS\POS.Web\obj\Debug\POS.Web.pdb
+C:\Projetos\POS\POS.Web\bin\roslyn\csc.exe
+C:\Projetos\POS\POS.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projetos\POS\POS.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projetos\POS\POS.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projetos\POS\POS.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projetos\POS\POS.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projetos\POS\POS.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projetos\POS\POS.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Projetos\POS\POS.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projetos\POS\POS.Web\bin\roslyn\vbc.exe
+C:\Projetos\POS\POS.Web\bin\roslyn\VBCSCompiler.exe
+C:\Projetos\POS\POS.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Projetos\POS\POS.Web\bin\POS.Web.dll.config
+C:\Projetos\POS\POS.Web\bin\POS.Web.dll
+C:\Projetos\POS\POS.Web\bin\POS.Web.pdb
+C:\Projetos\POS\POS.Web\bin\Antlr3.Runtime.dll
+C:\Projetos\POS\POS.Web\bin\AutoMapper.dll
+C:\Projetos\POS\POS.Web\bin\EntityFramework.dll
+C:\Projetos\POS\POS.Web\bin\EntityFramework.SqlServer.dll
+C:\Projetos\POS\POS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projetos\POS\POS.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Projetos\POS\POS.Web\bin\Newtonsoft.Json.dll
+C:\Projetos\POS\POS.Web\bin\POS.Domain.dll
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Cross.AutoMapper.dll
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Cross.DTO.dll
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Cross.IoC.dll
+C:\Projetos\POS\POS.Web\bin\SimpleInjector.dll
+C:\Projetos\POS\POS.Web\bin\SimpleInjector.Integration.Web.dll
+C:\Projetos\POS\POS.Web\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Projetos\POS\POS.Web\bin\System.Web.Helpers.dll
+C:\Projetos\POS\POS.Web\bin\System.Web.Mvc.dll
+C:\Projetos\POS\POS.Web\bin\System.Web.Optimization.dll
+C:\Projetos\POS\POS.Web\bin\System.Web.Razor.dll
+C:\Projetos\POS\POS.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Projetos\POS\POS.Web\bin\System.Web.WebPages.dll
+C:\Projetos\POS\POS.Web\bin\System.Web.WebPages.Razor.dll
+C:\Projetos\POS\POS.Web\bin\WebGrease.dll
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Data.dll
+C:\Projetos\POS\POS.Web\bin\POS.Domain.pdb
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Cross.AutoMapper.pdb
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Cross.DTO.pdb
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Cross.IoC.pdb
+C:\Projetos\POS\POS.Web\bin\AutoMapper.xml
+C:\Projetos\POS\POS.Web\bin\EntityFramework.xml
+C:\Projetos\POS\POS.Web\bin\EntityFramework.SqlServer.xml
+C:\Projetos\POS\POS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projetos\POS\POS.Web\bin\SimpleInjector.xml
+C:\Projetos\POS\POS.Web\bin\SimpleInjector.Integration.Web.xml
+C:\Projetos\POS\POS.Web\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Projetos\POS\POS.Web\bin\System.Web.Helpers.xml
+C:\Projetos\POS\POS.Web\bin\System.Web.Mvc.xml
+C:\Projetos\POS\POS.Web\bin\System.Web.Optimization.xml
+C:\Projetos\POS\POS.Web\bin\System.Web.Razor.xml
+C:\Projetos\POS\POS.Web\bin\System.Web.WebPages.xml
+C:\Projetos\POS\POS.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Projetos\POS\POS.Web\bin\System.Web.WebPages.Razor.xml
+C:\Projetos\POS\POS.Web\bin\Antlr3.Runtime.pdb
+C:\Projetos\POS\POS.Web\bin\Newtonsoft.Json.xml
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Data.pdb
+C:\Projetos\POS\POS.Web\bin\POS.Infra.Data.dll.config
+C:\Projetos\POS\POS.Web\obj\Debug\POS.Web.csprojResolveAssemblyReference.cache
+C:\Projetos\POS\POS.Web\obj\Debug\POS.Web.dll
+C:\Projetos\POS\POS.Web\obj\Debug\POS.Web.pdb

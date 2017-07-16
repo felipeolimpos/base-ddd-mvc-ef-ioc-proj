@@ -1,0 +1,38 @@
+﻿@using POS.Web.ViewModels
+@{
+    var categories = (List<CategoryViewModel>)HttpContext.Current.Session["Categories"];
+    if (categories != null)
+    {
+        categories = categories.Take(3).ToList();
+    }
+
+    var hasCategories = categories != null && categories.Any();
+
+    ViewBag.Title = "Home";
+}
+
+<div class="jumbotron text-center">
+    <h1>Welcome to POS Web Store!</h1>
+</div>
+
+@if (ViewBag.Error != null && ViewBag.Error)
+{
+    <div class="alert alert-danger alert-dismissable fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Error!</strong> Something went wrong, please try again.
+    </div>
+}
+
+@if (hasCategories)
+{
+    <div class="row">
+        @foreach (var item in categories)
+        {
+            <div class="col-md-4">
+                <h2>@item.Name</h2>
+                <p>@item.Description</p>
+                <p><a class="btn btn-primary" href="~/Category/@item.ID">BUY &raquo;</a></p>
+            </div>
+        }
+    </div>
+}

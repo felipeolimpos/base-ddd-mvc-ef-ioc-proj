@@ -1,0 +1,54 @@
+﻿@model IEnumerable<POS.Web.ViewModels.PaymentMethodViewModel>
+@{
+    ViewBag.Title = "Payment Methods";
+}
+
+<h2>Manage Payment Methods</h2>
+
+@if (Model.Any())
+{
+<table class="table table-striped table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.ActionLink(item.Name, "Details", new { id = item.ID })
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Active)
+                </td>
+                <td>
+                    <a href="/PaymentMethods/Edit/@item.ID"><span class="glyphicon glyphicon-pencil"></span></a>
+                    |
+                    <a href="/PaymentMethods/Delete/@item.ID"><span class="glyphicon glyphicon-trash"></span></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<hr />
+}
+
+<p>
+    @Html.ActionLink("New Payment Method", "Create")
+</p>

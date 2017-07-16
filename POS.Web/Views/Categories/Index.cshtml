@@ -1,0 +1,55 @@
+﻿@model POS.Web.ViewModels.CategoryViewModel
+@{
+    ViewBag.Title = string.Format("{0} - {1}", "Category", Model.Name);
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center">@Html.DisplayFor(model => model.Name)</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>
+                @Html.DisplayFor(model => model.Description)
+            </p>
+        </div>
+    </div>
+    <hr />
+    @if (Model.Products != null && Model.Products.Any())
+    {
+        foreach (var item in Model.Products)
+        {
+            <div class="row">
+                <div class="col-md-6 lead">
+                    <span>
+                        <a href="~/Product/@item.ID">@item.Name</a>
+                    </span>
+                </div>
+                <div class="col-md-2 lead">
+                    <span class="lead">
+                        @Html.DisplayFor(model => item.Price)
+                    </span>
+                </div>
+                <div class="col-md-4">
+                    @using (Html.BeginForm("Add", "Cart", FormMethod.Post, new { @id="add-form"+item.ID }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" id="id-@item.ID" value="@item.ID" />
+                        <input id="quantity-@item.ID" name="quantity" type="number" min="1" max="1000" value="1" />
+                        <button class="btn btn-default btn-primary" type="submit">Add to Cart</button>
+                    }
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-md-12">
+            <p>Sorry, no products were found for this Category.</p>
+        </div>
+    }
+</div>
