@@ -34,7 +34,7 @@ To set up this project you will need to:
 - Edit POS > Presentation > POS.Web > Web.config file and set your own Connection String (Under Configuration > connectionStrings);
 - Build Solution (Ctrl + Shift + B);
 - Open Package Manager Console;
-- Select "Presentation\POS.Web" as Default Project;
+- Select "Presentation\POS.Infra.Data" as Default Project;
 - Still on Console, run "Update-Database" command;
 - Go ahead and HAPPY CODING !!!
 
