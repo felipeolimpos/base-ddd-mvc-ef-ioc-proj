@@ -52,8 +52,8 @@ namespace POS.Infra.Data.Migrations
 
         public override void Down()
         {
-            @Sql(@"DELETE FROM [dbo].[Functional]");
             @Sql(@"DELETE FROM [dbo].[Product]");
+            @Sql(@"DELETE FROM [dbo].[Category]");
             @Sql(@"DELETE FROM [dbo].[PaymentMethod]");
         }
     }
